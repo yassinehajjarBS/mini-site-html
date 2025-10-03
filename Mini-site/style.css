@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f7f9fc;
+  color: #2c3e50;
+}
+
+header {
+  background: #34495e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #1abc9c;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+section {
+  margin-bottom: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+h2 {
+  color: #1abc9c;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  padding: 6px 0;
+}
+ul li::before {
+  content: "✔️ ";
+  color: #1abc9c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th {
+  background: #1abc9c;
+  color: white;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #1abc9c;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: #16a085;
+} 
+
+footer {
+  background: #34495e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+footer a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
